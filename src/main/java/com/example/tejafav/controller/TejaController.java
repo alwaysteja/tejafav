@@ -13,7 +13,8 @@ Me me;
 
     @GetMapping("/")
     public String welcome(){
-        return "Welcome";
+
+        return "Welcome to our API,if you want to know about me add whoami in url above";
     }
     @GetMapping("/whoamI")
     public Me whoAmI(){
